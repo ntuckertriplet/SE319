@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Validation Form</title>
+</head>
+<body>
+<h1>Validation Form</h1>
+<form name="validationForm" id="validationForm" onsubmit="return validation()" action="validation2.html" method="GET">
+<fieldset>
+    <legend>Validation Form</legend>
+    <p id="firstnameEntry">
+        <label for="firstname">First Name</label>
+        <input id="firstname" name="firstname" type="text" />
+    </p>
+    <p id="lastnameEntry">
+        <label for="lastname">Last Name</label>
+        <input id="lastname" name="lastname" type="text" />
+    </p>
+    <p id="genderEntry">
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender">
+            <option value="Gender">--Gender--</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+    </p>
+    <p id="stateEntry">
+        <label for="state">State</label>
+        <select name="state" id="state">
+            <option value="State">--State--</option>
+            <option value="California">California</option>
+            <option value="Florida">Florida</option>
+            <option value="New York">New York</option>
+            <option value="Texas">Texas</option>
+            <option value="Hawaii">Hawaii</option>
+            <option value="Washington">Washington</option>
+            <option value="Colorado">Colorado</option>
+            <option value="Virginia">Virginia</option>
+            <option value="Iowa">Iowa</option>
+            <option value="Arizona">Arizona</option>
+        </select>
+    </p>
+    <input onCLick="validation()" type="button" id="continue" name="continue" value="Continue"/>
+</fieldset>
+</form>
+<script src="validation1.js"></script>
+</body>
+</html>

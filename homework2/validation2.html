@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Information</title>
+</head>
+<body>
+<h1>Contact Information</h1>
+<form name="contactForm" id="contactForm" onsubmit="return inputValidation()" action="validation2.html" method="GET">
+    <fieldset>
+        <legend>Contact Information</legend>
+        <p id="emailEntry">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="text" />
+        </p>
+        <p id="phoneEntry">
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="text" />
+        </p>
+        <p id="addressEntry">
+            <label for="address">Address</label>
+            <input id="address" name="address" type="text" />
+        </p>
+        <input onCLick="inputValidation()" type="button" id="continue" name="continue" value="Submit"/>
+    </fieldset>
+</form>
+<script src="validation2.js"></script>
+</body>
+</html>
