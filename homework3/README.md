@@ -29,6 +29,20 @@ Checks for collision. It checks if the head is within the bounds of the canvas a
 
 Checks to see if the x and y passed in are also contained in the visited list
 
+### Images
+
+![Landing Page](images/landing.png)
+
+![Movement](images/movement.png)
+
+![Right Turn](images/rightTurn.png)
+
+![Left Turn](images/leftTurn.png)
+
+![Hits Self](images/hitsSelf.png)
+
+![Hits Wall](images/hitsWall.png)
+
 ## Node JS Programming
 
 ### factorial(n) 
@@ -46,3 +60,7 @@ Takes in a string, splits it into a char array, reverses it, then joins it back 
 ### function palindrome(str)
 
 Checks for alpha numerc values first with a regular expression, just to allow for spaces in something like "taco cat." Then it reverses the string once all special characters and nonsense have been stripped. If the reverse is the same as the original, it's a palindrome.
+
+### Images
+
+![Node Output](images/nodeOutput.png)
