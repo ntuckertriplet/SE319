@@ -1,6 +1,17 @@
 # Homework 3
 Submitted by Nathan Tucker (njtucker@iastate.edu)
 
+## To Compile and Run
+
+### Snake
+
+Just open `snake.html` in a browser and you will be able to play the game
+
+### Node Programming
+
+1. Run `npm install`
+2. Run `node hw3.js`
+
 ## Snake Game
 
 In the html I made a canvas and 3 buttons, one toggled the move and the others toggled the direction.
